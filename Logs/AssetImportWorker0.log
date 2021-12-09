@@ -754,3 +754,12 @@ Received Import Request.
 Start importing Assets/Scenes/GreenHouseScene.unity using Guid(3003121b2bf39e1428e1f37d8a2f3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06047890b6c1f0296df90bafa9d9cfa') in 0.010694 seconds
   Import took 0.014433 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 511.909194 seconds.
+  path: Assets/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796f4ca2652563aabb920c1beb55d511') in 0.011653 seconds
+  Import took 0.015608 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
