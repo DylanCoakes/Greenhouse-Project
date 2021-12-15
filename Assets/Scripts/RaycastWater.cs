@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,7 @@ public class RaycastWater : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {//start coroutine
-        StartCoroutine(GrowPlant());
+        
     }
     // Update is called once per frame
     void Update()
@@ -21,14 +22,15 @@ public class RaycastWater : MonoBehaviour
         RaycastHit hit;
 
         //raycast from position forward
-        Vector3 fwd = transform.TransformDirection(Vector3.forward);
+        Vector3 fwd = transform.TransformDirection(Vector3.forward) * 5;
 
         
-          if (Physics.Raycast(transform.position, fwd, out hit, 10))
+          if (Physics.Raycast(transform.position, fwd, out hit ))
             {//if raycast hits gameobject with platerbox tag, compare tag
             if(hit.collider.gameObject.CompareTag("PlanterBox"))
             {//set srpout prefab to active
                 SproutPrefab.SetActive(true);
+                StartCoroutine(GrowPlant());
             }
                 
 
@@ -39,8 +41,13 @@ public class RaycastWater : MonoBehaviour
     IEnumerator GrowPlant()
     {//couroutine waits 3 seconds before setting sprout model as false and rose as active
        yield return new WaitForSeconds(3);
-        SproutPrefab.SetActive(false);
+        Destroy(gameObject, SproutPrefab,.5f);
         TulipPrefab.SetActive(true);
+    }
+    // does this work?
+    private void Destroy(GameObject gameObject, GameObject sproutPrefab, float v)
+    {
+        throw new NotImplementedException();
     }
 }
 

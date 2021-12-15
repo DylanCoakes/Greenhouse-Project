@@ -2470,3 +2470,1040 @@ System memory in use after: 157.8 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4111.
 Total: 2.796300 ms (FindLiveObjects: 0.292900 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.363800 ms  DeleteObjects: 0.018100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3516.614804 seconds.
+  path: Assets/Scripts/RaycastWater.cs
+  artifactKey: Guid(f8cb0bd5ec1736c4794e087f46469e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RaycastWater.cs using Guid(f8cb0bd5ec1736c4794e087f46469e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae3e078682b632c156be96aaa3c149a') in 0.016362 seconds
+  Import took 0.022327 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.308237 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystemObject.cs:24 
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2931)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at Unity.XR.Oculus.InputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:36 
+  at Unity.XR.Oculus.InputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:37 
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Interactions.SectorInteraction..cctor () [0x0000a] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Interactions\SectorInteraction.cs:275 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.Vector3FallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:68 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.QuaternionFallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:128 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.6 MB.
+System memory in use after: 157.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4114.
+Total: 2.999600 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.138200 ms MarkObjects: 2.514700 ms  DeleteObjects: 0.046700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004007 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystemObject.cs:24 
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2931)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at Unity.XR.Oculus.InputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:36 
+  at Unity.XR.Oculus.InputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:37 
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Interactions.SectorInteraction..cctor () [0x0000a] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Interactions\SectorInteraction.cs:275 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.Vector3FallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:68 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.QuaternionFallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:128 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.6 MB.
+System memory in use after: 157.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4117.
+Total: 3.562600 ms (FindLiveObjects: 0.440200 ms CreateObjectMapping: 0.338000 ms MarkObjects: 2.740700 ms  DeleteObjects: 0.042800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.738153 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystemObject.cs:24 
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2931)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at Unity.XR.Oculus.InputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:36 
+  at Unity.XR.Oculus.InputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:37 
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Interactions.SectorInteraction..cctor () [0x0000a] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Interactions\SectorInteraction.cs:275 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.Vector3FallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:68 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.QuaternionFallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:128 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.6 MB.
+System memory in use after: 157.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4120.
+Total: 2.866800 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.135700 ms MarkObjects: 2.364100 ms  DeleteObjects: 0.056400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004035 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystemObject.cs:24 
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2931)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at Unity.XR.Oculus.InputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:36 
+  at Unity.XR.Oculus.InputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:37 
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Interactions.SectorInteraction..cctor () [0x0000a] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Interactions\SectorInteraction.cs:275 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.Vector3FallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:68 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.QuaternionFallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:128 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.7 MB.
+System memory in use after: 157.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4123.
+Total: 3.135100 ms (FindLiveObjects: 0.306900 ms CreateObjectMapping: 0.124800 ms MarkObjects: 2.632500 ms  DeleteObjects: 0.070100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003929 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystemObject.cs:24 
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2931)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at Unity.XR.Oculus.InputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:36 
+  at Unity.XR.Oculus.InputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:37 
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Interactions.SectorInteraction..cctor () [0x0000a] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Interactions\SectorInteraction.cs:275 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.Vector3FallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:68 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.QuaternionFallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:128 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.7 MB.
+System memory in use after: 157.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4126.
+Total: 2.632400 ms (FindLiveObjects: 0.292800 ms CreateObjectMapping: 0.122100 ms MarkObjects: 2.200800 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.260585 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystemObject.cs:24 
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2931)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at Unity.XR.Oculus.InputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:36 
+  at Unity.XR.Oculus.InputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:37 
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Interactions.SectorInteraction..cctor () [0x0000a] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Interactions\SectorInteraction.cs:275 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.Vector3FallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:68 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.QuaternionFallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:128 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.7 MB.
+System memory in use after: 158.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4129.
+Total: 2.742000 ms (FindLiveObjects: 0.297700 ms CreateObjectMapping: 0.125600 ms MarkObjects: 2.300200 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003899 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystemObject.cs:24 
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2931)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs:2848)
+Unity.XR.Oculus.InputLayoutLoader:RegisterInputLayouts () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:36)
+Unity.XR.Oculus.InputLayoutLoader:.cctor () (at Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputManager.cs Line: 90)
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at Unity.XR.Oculus.InputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:36 
+  at Unity.XR.Oculus.InputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader.RegisterInputLayouts () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:37 
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedInputLayoutLoader..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Interactions.SectorInteraction..cctor () [0x0000a] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Interactions\SectorInteraction.cs:275 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.Vector3FallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:68 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs:2848 
+   --- End of inner exception stack trace ---
+  at UnityEngine.XR.Interaction.Toolkit.Inputs.Composites.QuaternionFallbackComposite..cctor () [0x00000] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.8\Runtime\Inputs\Composites\FallbackComposite.cs:128 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FINAL FOCUS\UnityProject\FinalFocusProject\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.7 MB.
+System memory in use after: 158.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4132.
+Total: 2.939800 ms (FindLiveObjects: 0.288300 ms CreateObjectMapping: 0.128500 ms MarkObjects: 2.505300 ms  DeleteObjects: 0.016600 ms)
+
