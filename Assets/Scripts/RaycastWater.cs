@@ -41,13 +41,10 @@ public class RaycastWater : MonoBehaviour
     IEnumerator GrowPlant()
     {//couroutine waits 3 seconds before setting sprout model as false and rose as active
        yield return new WaitForSeconds(3);
-        Destroy(gameObject, SproutPrefab,.5f);
+        Destroy(SproutPrefab);
         TulipPrefab.SetActive(true);
     }
     // does this work?
-    private void Destroy(GameObject gameObject, GameObject sproutPrefab, float v)
-    {
-        throw new NotImplementedException();
-    }
+
 }
 
