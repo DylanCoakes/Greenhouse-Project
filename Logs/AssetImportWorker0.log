@@ -1396,3 +1396,4 @@ Received Import Request.
 Start importing Assets/Sounds/spring-garden_music_01.wav using Guid(ce58ab20fab2123429ac40968150a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3029d7d469cc4f6f8ae130746be7d0') in 1.035173 seconds
   Import took 1.040101 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
