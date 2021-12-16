@@ -9,8 +9,8 @@ public class RaycastWater : MonoBehaviour
     GameObject SproutPrefab;
     [SerializeField]
     GameObject TulipPrefab;
-    
-   
+    private bool watering = false;
+    public AudioSource Wand;
     // Start is called before the first frame update
     void Start()
     {//start coroutine
@@ -22,14 +22,16 @@ public class RaycastWater : MonoBehaviour
         RaycastHit hit;
 
         //raycast from position forward
-        Vector3 fwd = transform.TransformDirection(Vector3.forward) * 5;
+        Vector3 fwd = transform.TransformDirection(Vector3.forward);
 
         
-          if (Physics.Raycast(transform.position, fwd, out hit ))
+          if (Physics.Raycast(transform.position, fwd, out hit, 2f)&& !watering)
             {//if raycast hits gameobject with platerbox tag, compare tag
+           
             if(hit.collider.gameObject.CompareTag("PlanterBox"))
-            {//set srpout prefab to active
+            {//set sprout prefab to active
                 SproutPrefab.SetActive(true);
+                watering = true;
                 StartCoroutine(GrowPlant());
             }
                 
@@ -39,12 +41,16 @@ public class RaycastWater : MonoBehaviour
 
     }
     IEnumerator GrowPlant()
-    {//couroutine waits 3 seconds before setting sprout model as false and rose as active
-       yield return new WaitForSeconds(3);
-        Destroy(SproutPrefab);
+    {//couroutine waits 5 seconds before setting sprout model as false and tulip as active
+       yield return new WaitForSeconds(5);
+
         TulipPrefab.SetActive(true);
+        Wand.Play();
+        Destroy(SproutPrefab);
     }
-    // does this work?
 
 }
+   
+
+    
 
