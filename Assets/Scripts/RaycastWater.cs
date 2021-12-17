@@ -12,10 +12,7 @@ public class RaycastWater : MonoBehaviour
     private bool watering = false;
     public AudioSource Wand;
     // Start is called before the first frame update
-    void Start()
-    {//start coroutine
-        
-    }
+  
     // Update is called once per frame
     void Update()
     {
@@ -25,12 +22,12 @@ public class RaycastWater : MonoBehaviour
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
 
         
-          if (Physics.Raycast(transform.position, fwd, out hit, 2f)&& !watering)
+          if (Physics.Raycast(transform.position, fwd, out hit, 1f)&& !watering)
             {//if raycast hits gameobject with platerbox tag, compare tag
            
             if(hit.collider.gameObject.CompareTag("PlanterBox"))
             {//set sprout prefab to active
-                SproutPrefab.SetActive(true);
+                
                 watering = true;
                 StartCoroutine(GrowPlant());
             }
@@ -41,12 +38,12 @@ public class RaycastWater : MonoBehaviour
 
     }
     IEnumerator GrowPlant()
-    {//couroutine waits 5 seconds before setting sprout model as false and tulip as active
+    {//couroutine waits 5 seconds before it destroys sprout model and sets tulip as active
        yield return new WaitForSeconds(5);
-
+        Destroy(SproutPrefab);
         TulipPrefab.SetActive(true);
         Wand.Play();
-        Destroy(SproutPrefab);
+        
     }
 
 }

@@ -14,6 +14,7 @@ public class VignetteScript : MonoBehaviour
     float duration = 0.5f;
     [SerializeField]
     private Volume volume;
+    
     Vignette vignette;
     //can determine if the joystick is pressed and where that position is in game
     [SerializeField]
