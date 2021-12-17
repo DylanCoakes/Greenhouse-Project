@@ -36,7 +36,7 @@ public class VignetteScript : MonoBehaviour
     
     //when pressed, if value is not zero, fades in
     private void FadeIn(InputAction.CallbackContext obj)
-    {
+    {//if value is not 0 use vignette, start coroutine
         if (obj.ReadValue<Vector2>() != Vector2.zero)
         {
             StartCoroutine(Fade(intensity, 0));

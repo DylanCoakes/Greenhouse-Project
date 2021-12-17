@@ -7,7 +7,7 @@ public class AudioTrigger : MonoBehaviour
     public AudioSource triggerAudio;
 
     private void OnTriggerEnter(Collider other)
-    {
+    {//play selected audio
         triggerAudio.Play();
     }
 
